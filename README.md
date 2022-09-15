@@ -12,6 +12,7 @@ At a bare minimum:
 1. Create a Python 3 virtual environment
 1. Activate the new environment
 1. Install the dependencies listed in `requirements.py3` into your virtual environment
+1. Install the required juypyterlab extensions: `jupyter labextension install jupyterlab-plotly`
 1. Execute the command `jupyter lab` from with in the environment, from the repo root
 
 Depending on your platform, you will always get a link in the console output to open the notebook server in your browser of choice; some platforms will just launch the default browser and open the link for you in a new tab.  Any further dependencies are installed via `pip` as you progress through the notebooks, or you can pull the package lists from those cells and install using your favorite python package manager.

@@ -162,3 +162,8 @@ cython_debug/
 # macOS cruft
 .DS_Store
 
+# Repo-specific cruft
+notebooks/MNIST/
+notebooks/data/
+notebooks/lightning_logs/
+
